@@ -1,0 +1,32 @@
+.draggable {
+  	width: 250px;
+    position: relative;
+    margin-left: 25%;
+}
+
+#desc {
+  color: #EDB555;
+  font-family: courier new;
+ } 
+
+#main{
+    /* Terep -Main */
+		width:500px;
+		height: 600px;
+		background-color:#FCF2B4;
+		margin:2px;
+		padding:5px;
+    border: 3px solid #EDB555;
+	}
+	#main #head{
+    /* tarcsa tarto */
+		width:240px;
+		height: 240px;
+		border:3px dashed #EDB555;
+		border-radius:50%;
+		background: white;
+		margin:0 auto;
+		display: block;
+		overflow: hidden;
+	}
+	#main #head img#fan{
